@@ -16,3 +16,7 @@ print("Quem são os autores de artigos mais populares de todos os tempos?\n")
 for i in range(0, len(artigo)):
     print (artigo[i][0], " - ", artigo[i][1])
 print("\n")
+print("Em quais dias mais de 1% das requisições resultaram em erros?\n")
+for i in range(0, len(error)):
+    print (error[i][0], " - ", error[i][1])
+print("\n")
