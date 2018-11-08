@@ -12,3 +12,7 @@ print("Quais são os três artigos mais populares de todos os tempos?\n")
 for i in range(0, len(titulo)):
     print (titulo[i][0], " - ", titulo[i][1])
 print("\n")
+print("Quem são os autores de artigos mais populares de todos os tempos?\n")
+for i in range(0, len(artigo)):
+    print (artigo[i][0], " - ", artigo[i][1])
+print("\n")
