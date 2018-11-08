@@ -7,7 +7,8 @@ An application that analyzes for a database.
 
 A versão usada na aplicação foi o Python 3.5.2, e para execução da aplicação
 necessário a versão do Python 3 instalada.
-Para executar a aplicação é só executar o arquivo "analiselog.py".
+Para executar a aplicação é só executar o arquivo "analiselog.py" e 
+ter executado o Banco de dados "newsdata.sql".
 # License
 
 ## MIT License
