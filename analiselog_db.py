@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Conecta no Banco de dados 'News' e retorna os valores.
 
 import psycopg2
+
 
 def artigo_maisacessado():
     """Função que retorna todos os artigos"""
@@ -13,6 +15,7 @@ def artigo_maisacessado():
     return c.fetchall()
     db.close()
     
+    
 def autores_maispopulares():
     """Função que retorna os autores de artigos mais populares de todos os
     tempos"""
@@ -23,6 +26,7 @@ def autores_maispopulares():
     on at.id=a.author group by at.name order by count(at.name) desc")
     return c.fetchall()
     db.close()
+    
     
 def erro_requisicao():
     """Função que retorna em quais dias ocorerram mais de 1% de requisições com
